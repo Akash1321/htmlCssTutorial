@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
 :root {
 
   --clr-accent-400: hsl(12, 88%, 59%);
@@ -8,7 +10,7 @@
   --clr-neutral-100: hsl(233, 12%, 13%);
   --clr-neutral-900: hsl(0, 0%, 0%);
 
-  --ff-primary: 'Be Vietnam Pro', sans-serif;
+  --ff-primary: "Be Vietnam Pro", sans-serif;
   --ff-body: var(--ff-primary);
   --ff-heading: var(var(--ff-primary));
 
@@ -200,6 +202,12 @@ svg {
 
 .fs-600{
   font-size: var(--fs-600);
+}
+
+
+
+body{
+  font-family: var(--ff-body);
 }
 
 
